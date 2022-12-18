@@ -8,7 +8,7 @@ pipeline {
 
     stages{
 
-        stage('Git Checkout'){
+        steps('Git Checkout'){
 
             git branch: 'main', url: 'https://github.com/Project2700/counter-app.git'
         }
