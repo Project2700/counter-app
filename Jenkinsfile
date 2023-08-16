@@ -36,6 +36,10 @@ pipeline {
             }
             
         }
-        
+
     }        
 }
+
+// webhook ip adresi değişecek
+// ssh public ip değişecek
+// jenkins agent ip değişecek
